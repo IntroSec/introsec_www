@@ -1,7 +1,7 @@
 ; This should be copied to bottom of .make but removed for releases
 ;
 projects[openomega][download][type] = git
-projects[openomega][download][url] = https://github.com/IntroSec/openomega.git
+projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
 projects[openomega][download][revision] = master
 
 projects[devel][version] = 1.5
@@ -16,9 +16,9 @@ projects[apps][download][url] = http://git.drupal.org/project/apps.git
 projects[apps][download][revision] = 7.x-1.x
 
 projects[follow][download][type] = git
-projects[follow][download][url] = https://github.com/IntroSec/follow.git
+projects[follow][download][url] = git@github.com:IntroSec/follow.git
 projects[follow][download][revision] = master
 
 projects[libraries][download][type] = git
-projects[libraries][download][url] = git://git.drupal.org/project/libraries.git
+projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][revision] = 7.x-2.x
