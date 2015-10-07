@@ -192,26 +192,8 @@ function openpublic_home_page_feature_demo_default_box() {
               ),
             ),
           ),
-        ),
-        3 => array(
-          'field_carousel_slides_node' => array(
-            'und' => array(
-              0 => array(
-                'machine_name' => 'services_learning_programs',
-              ),
-            ),
-          ),
-        ),
-        4 => array(
-          'field_carousel_slides_node' => array(
-            'und' => array(
-              0 => array(
-                'machine_name' => 'services_research_assistance',
-              ),
-            ),
-          ),
-        ),
-      ),
+        ), 
+       ),
     ),
   );
   $export['box-e826276f'] = $box;
