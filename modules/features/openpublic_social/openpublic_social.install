@@ -19,7 +19,7 @@ function openpublic_social_install() {
     $follow_data[] = array(
       'name' => 'facebook',
       'uid' => 0,
-      'path' => 'http://www.facebook.com/pages/Phase2-Technology/7553826753',
+      'path' => 'https://www.facebook.com/pages/introsec.services',
       'options' => $follow_options,
       'title' => '',
       'weight' => 0,
@@ -27,15 +27,7 @@ function openpublic_social_install() {
     $follow_data[] = array(
       'name' => 'twitter',
       'uid' => 0,
-      'path' => 'http://twitter.com/openpublic',
-      'options' => $follow_options,
-      'title' => '',
-      'weight' => 0,
-    );
-    $follow_data[] = array(
-      'name' => 'youtube',
-      'uid' => 0,
-      'path' => 'http://www.youtube.com',
+      'path' => 'https://www.twitter.com/introsec',
       'options' => $follow_options,
       'title' => '',
       'weight' => 0,
@@ -43,10 +35,18 @@ function openpublic_social_install() {
     $follow_data[] = array(
       'name' => 'linkedin',
       'uid' => 0,
-      'path' => 'http://www.linkedin.com/company/phase2-technology',
+      'path' => 'https://www.linkedin.com/company/intro-security',
       'options' => $follow_options,
       'title' => '',
       'weight' => 0,
+    );
+    $follow_data[] = array(
+    	'name' => 'github',
+    	'uid' => 0,
+    	'path' => 'https://www.github.com/IntroSec',
+    	'options' => $follow_options,
+    	'title' => '',
+    	'weight' => 0,
     );
     foreach ($follow_data as $data) {
       drupal_write_record('follow_links', $data);

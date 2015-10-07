@@ -28,17 +28,17 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_body' => array(
             'und' => array(
               0 => array(
-                'value' => 'Ut consuetudium assum claram hendrerit veniam. Legentis dignissim Investigationes at autem eodem....',
+                'value' => 'We repair and service any PC or Laptop cleaning & greatly improving performance.',
                 'format' => NULL,
-                'safe_value' => 'Ut consuetudium assum claram hendrerit veniam. Legentis dignissim Investigationes at autem eodem....',
+                'safe_value' => 'We repair and service any PC or Laptop cleaning & greatly improving performance.',
               ),
             ),
           ),
           'field_feature_slides_image' => array(
             'und' => array(
               0 => array(
-                'filename' => 'Capital_Building_8_0.jpeg',
-                'uri' => 'public://Capital_Building_8_0_11.jpeg',
+                'filename' => 'computerfix.jpg',
+                'uri' => 'public://computerfix.jpg',
                 'status' => '1',
                 'rdf_mapping' => array(),
                 'alt' => NULL,
@@ -49,16 +49,16 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_title' => array(
             'und' => array(
               0 => array(
-                'value' => 'Congress Moves on Bipartisan Effort to Simplify US Tax Code',
+                'value' => 'PC/Laptop Service & Repair',
                 'format' => NULL,
-                'safe_value' => 'Congress Moves on Bipartisan Effort to Simplify US Tax Code',
+                'safe_value' => 'PC/Laptop Service & Repair',
               ),
             ),
           ),
           'field_feature_slides_url' => array(
             'und' => array(
               0 => array(
-                'url' => 'http://d2/press-release/congress-moves-bipartisan-effort-simplify-us-tax-code',
+                'url' => 'http://www.introsec.ca/residential',
                 'title' => NULL,
                 'attributes' => array(),
               ),
@@ -69,17 +69,17 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_body' => array(
             'und' => array(
               0 => array(
-                'value' => 'Vel doming vel tempor te qui. Liber consequat qui volutpat aliquam doming. Tincidunt nihil eodem..',
+                'value' => 'We take care or virus and malware removal leaving your PC clean and feeling better.',
                 'format' => NULL,
-                'safe_value' => 'Vel doming vel tempor te qui. Liber consequat qui volutpat aliquam doming. Tincidunt nihil eodem..',
+                'safe_value' => 'We take care or virus and malware removal leaving your PC clean and feeling better.',
               ),
             ),
           ),
           'field_feature_slides_image' => array(
             'und' => array(
               0 => array(
-                'filename' => 'education_13_0_0.jpg',
-                'uri' => 'public://education_13_0_0_11.jpg',
+                'filename' => 'virus_protection.jpg',
+                'uri' => 'public://virus_protection.jpg',
                 'status' => '1',
                 'rdf_mapping' => array(),
                 'alt' => NULL,
@@ -90,16 +90,16 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_title' => array(
             'und' => array(
               0 => array(
-                'value' => 'Education Tops Presidential Agenda in 2011',
+                'value' => 'Virus & Malware Removal',
                 'format' => NULL,
-                'safe_value' => 'Education Tops Presidential Agenda in 2011',
+                'safe_value' => 'Virus & Malware Removal',
               ),
             ),
           ),
           'field_feature_slides_url' => array(
             'und' => array(
               0 => array(
-                'url' => 'http://d2/service/education',
+                'url' => 'https://www.introsec.ca/residential',
                 'title' => NULL,
                 'attributes' => array(),
               ),
@@ -110,17 +110,17 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_body' => array(
             'und' => array(
               0 => array(
-                'value' => 'Open Source Tools Create Opportunities for Government',
+                'value' => 'We install and configure small/mid size networks as well as terminate cable ends',
                 'format' => NULL,
-                'safe_value' => 'Open Source Tools Create Opportunities for Government',
+                'safe_value' => 'We install and configure small/mid size networks as well as terminate cable ends',
               ),
             ),
           ),
           'field_feature_slides_image' => array(
             'und' => array(
               0 => array(
-                'filename' => 'captialbldg_flags_18_0_0.jpg',
-                'uri' => 'public://captialbldg_flags_18_0_0_11.jpg',
+                'filename' => 'networking.jpg',
+                'uri' => 'public://networking.jpg',
                 'status' => '1',
                 'rdf_mapping' => array(),
                 'alt' => NULL,
@@ -131,21 +131,21 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_feature_slides_title' => array(
             'und' => array(
               0 => array(
-                'value' => 'Open Source Tools Create Opportunities for Government',
+                'value' => 'Network Installation & Termination',
                 'format' => NULL,
-                'safe_value' => 'Open Source Tools Create Opportunities for Government',
+                'safe_value' => 'Network Installation & Termination',
               ),
             ),
           ),
           'field_feature_slides_url' => array(
             'und' => array(
               0 => array(
-                'url' => 'http://d2/press-release/whitehouse-issues-open-government-directive',
+                'url' => 'https://www.introsec.ca/residential',
                 'title' => NULL,
                 'attributes' => array(),
               ),
             ),
-          ),
+          ),          
         ),
       ),
     ),
@@ -170,7 +170,7 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_carousel_slides_node' => array(
             'und' => array(
               0 => array(
-                'machine_name' => 'services_disaster_response_assistance',
+                'machine_name' => 'pc_repair',
               ),
             ),
           ),
@@ -179,7 +179,7 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_carousel_slides_node' => array(
             'und' => array(
               0 => array(
-                'machine_name' => 'services_going_green_tax_credits',
+                'machine_name' => 'virus_removal',
               ),
             ),
           ),
@@ -188,7 +188,7 @@ function openpublic_home_page_feature_demo_default_box() {
           'field_carousel_slides_node' => array(
             'und' => array(
               0 => array(
-                'machine_name' => 'services_grant_opportunities',
+                'machine_name' => 'networking_services',
               ),
             ),
           ),

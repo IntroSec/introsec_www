@@ -33,12 +33,12 @@ function openpublic_apps_servers_info() {
  * Implements hook_install_configure_form_alter().
  */
 function openpublic_form_install_configure_form_alter(&$form, &$form_state) {
-  $form['site_information']['site_name']['#default_value'] = 'OpenPublic';
+  $form['site_information']['site_name']['#default_value'] = 'IntroSec';
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
-  $form['server_settings']['site_default_country']['#default_value'] = 'US';
+  $form['server_settings']['site_default_country']['#default_value'] = 'CA';
   if (!empty($_SERVER['HTTP_HOST'])) {
-    $form['admin_account']['account']['mail']['#default_value'] = 'admin@'. $_SERVER['HTTP_HOST'];
-    $form['site_information']['site_mail']['#default_value'] = 'admin@'. $_SERVER['HTTP_HOST'];
+    $form['admin_account']['account']['mail']['#default_value'] = 'admin@introsec.ca';
+    $form['site_information']['site_mail']['#default_value'] = 'info@introsec.ca';
   }
 }
 

@@ -11,16 +11,16 @@ function openpublic_press_release_demo_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu_press-releases:press-releases
-  $menu_links['main-menu_press-releases:press-releases'] = array(
+  $menu_links['main-menu_news:news'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'press-releases',
-    'router_path' => 'press-releases',
-    'link_title' => 'Press Releases',
+    'link_path' => 'news',
+    'router_path' => 'news',
+    'link_title' => 'News',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'main-menu_press-releases:press-releases',
+      'identifier' => 'main-menu_news:news',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -32,7 +32,7 @@ function openpublic_press_release_demo_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Press Releases');
+  t('News');
 
 
   return $menu_links;

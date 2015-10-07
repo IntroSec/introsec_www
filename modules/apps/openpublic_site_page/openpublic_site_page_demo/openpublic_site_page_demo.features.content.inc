@@ -11,7 +11,7 @@ function openpublic_site_page_demo_content_defaults() {
   $content = array();
 
   $content['about_page'] = (object) array(
-    'exported_path' => 'site-page/about-abc-agency',
+    'exported_path' => 'site-page/about-introsec',
     'link' => array(
       'menu_name' => 'main-menu',
       'link_path' => 'node-name/about_page',
@@ -29,7 +29,7 @@ function openpublic_site_page_demo_content_defaults() {
       'customized' => 0,
       'identifier' => 'main-menu:node-name/about_page',
     ),
-    'title' => 'About the ABC Agency',
+    'title' => 'About Intro Security',
     'status' => 1,
     'promote' => 0,
     'sticky' => 0,
@@ -42,17 +42,17 @@ function openpublic_site_page_demo_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => '<p>&nbsp;</p><h1>ABC Agency Offices are located at:</h1><p><img alt="Map to Agency" title="Map to Agency" src="/profiles/openpublic/modules/apps/openpublic_site_page/openpublic_site_page_demo/gmap.gif" style="float: right; width: 270px; height: 185px;" /></p><h3>123 Main Street<br />Washington, DC 12345</h3><h3><br />Email: info@example.gov<br /> Phone: (202)555-1212</h3><p>&nbsp;</p><h3>Our offices are available</h3><h3>M-F 8:30 am to 4:30 pm.</h3><p>&nbsp;</p><h4>We&#39;re here to serve you. Please tell us how we can be of assistance.</h4><p>&nbsp;</p><p>&nbsp;</p>',
+          'value' => '<p>&nbsp;</p><h1>IntroSec is located at:</h1><p><img alt="Map to Agency" title="Map to Agency" src="/profiles/openpublic/modules/apps/openpublic_site_page/openpublic_site_page_demo/gmap.gif" style="float: right; width: 270px; height: 185px;" /></p><h3>123 Main Street<br />Washington, DC 12345</h3><h3><br />Email: info@example.gov<br /> Phone: (202)555-1212</h3><p>&nbsp;</p><h3>Our offices are available</h3><h3>M-F 8:30 am to 4:30 pm.</h3><p>&nbsp;</p><h4>We&#39;re here to serve you. Please tell us how we can be of assistance.</h4><p>&nbsp;</p><p>&nbsp;</p>',
           'summary' => '',
           'format' => 'full_html',
           'safe_value' => '<p> </p>
 <h1>ABC Agency Offices are located at:</h1>
 <p><img alt="Map to Agency" title="Map to Agency" src="/profiles/openpublic/modules/apps/openpublic_site_page/openpublic_site_page_demo/gmap.gif" style="float: right; width: 270px; height: 185px;" /></p>
-<h3>123 Main Street<br />Washington, DC 12345</h3>
-<h3>Email: <a href="mailto:info@example.gov">info@example.gov</a><br /> Phone: (202)555-1212</h3>
+<h3>30 Christopher Street<br />St.Catharines, ON L2P 1W4</h3>
+<h3>Email: <a href="mailto:info@introsec.ca">info@introsec.ca</a><br /> Phone: (289)990-2733</h3>
 <p> </p>
-<h3>Our offices are available</h3>
-<h3>M-F 8:30 am to 4:30 pm.</h3>
+<h3>We are available</h3>
+<h3>M-F 9:00 am to 4:30 pm.</h3>
 <p> </p>
 <h4>We\'re here to serve you. Please tell us how we can be of assistance.</h4>
 <p> </p>
@@ -66,98 +66,14 @@ function openpublic_site_page_demo_content_defaults() {
       'und' => array(
         0 => array(
           'vocabulary_machine_name' => 'topic',
-          'name' => 'ABC agency',
+          'name' => 'IntroSec',
         ),
       ),
     ),
   );
 
-  $content['foia'] = (object) array(
-    'exported_path' => 'site-page/foia',
-    'title' => 'FOIA',
-    'status' => 1,
-    'promote' => 0,
-    'sticky' => 0,
-    'type' => 'site_page',
-    'language' => 'und',
-    'created' => 1294324825,
-    'comment' => 0,
-    'translate' => 0,
-    'machine_name' => 'foia',
-    'body' => array(
-      'und' => array(
-        0 => array(
-          'value' => 'Freedom of Information Act text',
-          'summary' => '',
-          'format' => 'filtered_html',
-          'safe_value' => '<p>Freedom of Information Act text</p>
-',
-          'safe_summary' => '',
-        ),
-      ),
-    ),
-  );
 
-  $content['open_government'] = (object) array(
-    'exported_path' => 'open',
-    'link' => array(
-      'menu_name' => 'main-menu',
-      'link_path' => 'node-name/open_government',
-      'router_path' => 'node/%',
-      'link_title' => 'Open Government',
-      'options' => array(
-        'attributes' => array(),
-      ),
-      'module' => 'menu',
-      'hidden' => 0,
-      'external' => 0,
-      'has_children' => 0,
-      'expanded' => 0,
-      'weight' => -45,
-      'customized' => 0,
-      'identifier' => 'main-menu:node-name/open_government',
-    ),
-    'title' => 'Open Government',
-    'status' => 1,
-    'promote' => 0,
-    'sticky' => 0,
-    'type' => 'site_page',
-    'language' => 'und',
-    'created' => 1294722622,
-    'comment' => 0,
-    'translate' => 0,
-    'machine_name' => 'open_government',
-    'body' => array(
-      'und' => array(
-        0 => array(
-          'value' => '<h2>ABC Agency Open Government Plan</h2><p>&nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat pellentesque diam, id ultrices odio molestie et. Fusce ipsum velit, accumsan sit amet convallis sit amet, condimentum eu felis. Ut vulputate nibh sit amet mauris blandit varius. Morbi fermentum tortor vitae nisi ornare faucibus. Integer posuere sem mi, at imperdiet augue. Duis a libero non neque porttitor convallis a ac justo. Mauris sodales nibh nec dolor condimentum sagittis. Curabitur est metus, consequat fermentum laoreet id, iaculis nec dui. Aenean ac magna vel quam euismod dictum. Pellentesque turpis tortor, faucibus quis tempor ac, consectetur sit amet tellus. Praesent nec egestas turpis. Cras imperdiet ante et quam dapibus luctus. Nunc a nisl vitae metus rhoncus rhoncus sed in metus. Sed condimentum varius leo. Nulla et sapien nisl, ut venenatis risus. Proin iaculis feugiat luctus. Ut nunc nibh, porttitor et sollicitudin at, pellentesque eget enim. Ut eros lacus, rutrum ut pellentesque a, suscipit nec ligula. Cras in dapibus quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id sapien ut massa accumsan imperdiet sit amet non nulla. Morbi vel sem lacus. Aenean ultricies ligula vitae lectus tempus tincidunt dignissim magna scelerisque. Praesent porta, ligula a tristique dictum, nisi nunc commodo felis, eget consequat nisi felis a lectus. Sed ut metus risus. Aenean lorem elit, aliquam eu tempus nec, vulputate non nibh. Nam sit amet porttitor enim. Pellentesque et leo purus. Aliquam fringilla, sem et scelerisque condimentum, lacus eros tincidunt augue, a convallis lorem libero id sapien. Suspendisse quis sapien augue, ac tincidunt ligula. Quisque mollis mi a massa suscipit id suscipit sem sagittis. In at diam sit amet eros molestie faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse sed elit sit amet est suscipit pretium eu in mi. Ut justo est, volutpat at congue a, ultrices quis felis.</p><p>&nbsp;</p><p>Available Reports:</p><ul><li>Aenean vulputate vestibulum lorem, sit amet accumsan magna feugiat quis.</li><li>Proin risus nulla, vestibulum ac sodales ut, dapibus in enim.</li><li>Proin nec faucibus velit.</li><li>Nullam quis felis nibh, vel pretium velit.</li></ul>',
-          'summary' => '',
-          'format' => 'full_html',
-          'safe_value' => '<h2>ABC Agency Open Government Plan</h2>
-<p> </p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat pellentesque diam, id ultrices odio molestie et. Fusce ipsum velit, accumsan sit amet convallis sit amet, condimentum eu felis. Ut vulputate nibh sit amet mauris blandit varius. Morbi fermentum tortor vitae nisi ornare faucibus. Integer posuere sem mi, at imperdiet augue. Duis a libero non neque porttitor convallis a ac justo. Mauris sodales nibh nec dolor condimentum sagittis. Curabitur est metus, consequat fermentum laoreet id, iaculis nec dui. Aenean ac magna vel quam euismod dictum. Pellentesque turpis tortor, faucibus quis tempor ac, consectetur sit amet tellus. Praesent nec egestas turpis. Cras imperdiet ante et quam dapibus luctus. Nunc a nisl vitae metus rhoncus rhoncus sed in metus. Sed condimentum varius leo. Nulla et sapien nisl, ut venenatis risus. Proin iaculis feugiat luctus. Ut nunc nibh, porttitor et sollicitudin at, pellentesque eget enim. Ut eros lacus, rutrum ut pellentesque a, suscipit nec ligula. Cras in dapibus quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id sapien ut massa accumsan imperdiet sit amet non nulla. Morbi vel sem lacus. Aenean ultricies ligula vitae lectus tempus tincidunt dignissim magna scelerisque. Praesent porta, ligula a tristique dictum, nisi nunc commodo felis, eget consequat nisi felis a lectus. Sed ut metus risus. Aenean lorem elit, aliquam eu tempus nec, vulputate non nibh. Nam sit amet porttitor enim. Pellentesque et leo purus. Aliquam fringilla, sem et scelerisque condimentum, lacus eros tincidunt augue, a convallis lorem libero id sapien. Suspendisse quis sapien augue, ac tincidunt ligula. Quisque mollis mi a massa suscipit id suscipit sem sagittis. In at diam sit amet eros molestie faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse sed elit sit amet est suscipit pretium eu in mi. Ut justo est, volutpat at congue a, ultrices quis felis.</p>
-<p> </p>
-<p>Available Reports:</p>
-<ul><li>Aenean vulputate vestibulum lorem, sit amet accumsan magna feugiat quis.</li>
-<li>Proin risus nulla, vestibulum ac sodales ut, dapibus in enim.</li>
-<li>Proin nec faucibus velit.</li>
-<li>Nullam quis felis nibh, vel pretium velit.</li>
-</ul>',
-          'safe_summary' => '',
-        ),
-      ),
-    ),
-    'field_topic' => array(
-      'und' => array(
-        0 => array(
-          'vocabulary_machine_name' => 'topic',
-          'name' => 'Main Site Page',
-        ),
-      ),
-    ),
-  );
-
-  $content['privacy_policy'] = (object) array(
+    $content['privacy_policy'] = (object) array(
     'exported_path' => 'site-page/privacy-policy',
     'link' => array(
       'menu_name' => 'menu-footer-utility',
