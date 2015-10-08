@@ -1,7 +1,7 @@
 ; This should be copied to bottom of .make but removed for releases
 ;
 projects[openomega][download][type] = git
-projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
+projects[openomega][download][url] = https://github.com/IntroSec/openomega.git
 projects[openomega][download][revision] = master
 
 projects[devel][version] = 1.5
