@@ -17,7 +17,7 @@ projects[apps][download][revision] = 7.x-1.x
 
 projects[follow][download][type] = git
 projects[follow][download][url] = git@github.com:IntroSec/follow.git
-projects[follow][download][revision] = master
+projects[follow][download][branch] = master
 
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git

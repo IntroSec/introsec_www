@@ -4,4 +4,4 @@ includes[] = drupal-org-core.make
 projects[openpublic][type] = profile
 projects[openpublic][download][type] = git
 projects[openpublic][download][url] = git@github.com:hyper3xpl0iter/introsec_www.git
-projects[openpublic][download][revision] = master
+projects[openpublic][download][branch] = master
