@@ -72,7 +72,7 @@ projects[field_collection][version] = 1.0-beta8
 projects[field_group][version] = 1.4
 
 projects[follow][download][type] = git
-projects[follow][download][url] = git@github.com:IntroSec/follow.git
+projects[follow][download][url] = https://github.com/IntroSec/follow.git
 projects[follow][download][branch] = master
 
 projects[fullcalendar][download][type] = git
@@ -103,7 +103,7 @@ projects[omega][subdir] = ''
 projects[openidadmin][version] = 1.0
 
 projects[openomega][download][type] = git
-projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
+projects[openomega][download][url] = https://github.com/IntroSec/openomega.git
 projects[openomega][download][branch] = master
 projects[openomega][subdir] = ''
 
