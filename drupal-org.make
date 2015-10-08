@@ -71,7 +71,9 @@ projects[field_collection][version] = 1.0-beta8
 
 projects[field_group][version] = 1.4
 
-projects[follow][version] = 2.0-alpha1
+projects[follow][download][type] = git
+projects[follow][download][url] = git@github.com:IntroSec/follow.git
+projects[follow][download][branch] = master
 
 projects[fullcalendar][download][type] = git
 projects[fullcalendar][download][url] = http://git.drupal.org/project/fullcalendar.git
@@ -81,11 +83,13 @@ projects[fullcalendar][download][revision] = 7.x-2.x
 
 projects[google_analytics][version] = 2.1
 
+projects[ckeditor][version] = 1.16
+
 projects[imce][version] = 1.9
 
 projects[imce_wysiwyg][version] = 1.0
 
-projects[libraries][version] = 1.0
+projects[libraries][version] = 2.2
 
 projects[link][version] = 1.3
 
@@ -98,8 +102,9 @@ projects[omega][subdir] = ''
 
 projects[openidadmin][version] = 1.0
 
-projects[openomega][version] = 1.5
-projects[openomega][subdir] = ''
+projects[openomega][download][type] = git
+projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
+projects[openomega][download][branch] = master
 
 projects[panels][version] = 3.4
 
@@ -154,8 +159,8 @@ libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
 ; This should be copied to bottom of .make but removed for releases
 ;
 projects[openomega][download][type] = git
-projects[openomega][download][url] = http://git.drupal.org/project/openomega.git
-projects[openomega][download][revision] = 7.x-1.x
+projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
+projects[openomega][download][branch] = master
 
 projects[devel][version] = 1.5
 
