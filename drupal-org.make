@@ -105,6 +105,7 @@ projects[openidadmin][version] = 1.0
 projects[openomega][download][type] = git
 projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
 projects[openomega][download][branch] = master
+projects[openomega][subdir] = ''
 
 projects[panels][version] = 3.4
 
@@ -158,10 +159,6 @@ libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
 
 ; This should be copied to bottom of .make but removed for releases
 ;
-projects[openomega][download][type] = git
-projects[openomega][download][url] = git@github.com:IntroSec/openomega.git
-projects[openomega][download][branch] = master
-
 projects[devel][version] = 1.5
 
 projects[coder][version] = 2.2
